@@ -32,7 +32,7 @@ def connect():
 
     # Replace '127.0.0.1' and 8080 with the server's IP and port.
     local_ip = socket.gethostbyname(socket.gethostname())
-    server_address = (local_ip, 8080)
+    server_address = (10.160.6.85, 8080)
 
     try:
         # Connect to the server
